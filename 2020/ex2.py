@@ -2,7 +2,7 @@
 
 passwords = []
 
-with open("ex2input.txt") as file:
+with open("input/ex2.txt") as file:
     for line in file.readlines():
         passwords.append(line.split(' '))
 

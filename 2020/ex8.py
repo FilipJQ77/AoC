@@ -59,7 +59,7 @@ def part2(instructions):
 
 def main():
     instructions = []
-    with open("ex8input.txt") as file:
+    with open("input/ex8.txt") as file:
         for line in file.readlines():
             instructions.append(line[:-1])
 

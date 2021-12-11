@@ -17,7 +17,7 @@ def main():
     passes = []
     passes_id = []
     max_id = -1
-    with open("ex5input.txt") as file:
+    with open("input/ex5.txt") as file:
         for line in file:
             passes.append(line[:-1])
     for p in passes:

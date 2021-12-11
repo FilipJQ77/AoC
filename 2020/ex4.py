@@ -64,7 +64,7 @@ def part2(passports):
 def main():
     passports = []
 
-    with open("ex4input.txt") as file:
+    with open("input/ex4.txt") as file:
         passport = ""
         for line in file.readlines():
             if line != "\n":

@@ -1,6 +1,6 @@
 terrain = []
 
-with open("ex3input.txt") as file:
+with open("input/ex3.txt") as file:
     for line in file.readlines():
         terrain.append(line[:-1])
 

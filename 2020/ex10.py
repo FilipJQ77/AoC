@@ -31,7 +31,7 @@ def part2(adapters):
 
 def main():
     adapters = []
-    with open("ex10input.txt") as file:
+    with open("input/ex10.txt") as file:
         for line in file.readlines():
             adapters.append(int(line))
     print(f"part 1: {part1(adapters.copy())}")

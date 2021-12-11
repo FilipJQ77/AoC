@@ -77,7 +77,7 @@ def part2(seat_lines):
 
 def main():
     seat_lines = []
-    with open("ex11input.txt") as file:
+    with open("input/ex11.txt") as file:
         for line in file.readlines():
             seat_lines.append(line[:-1])
     print(f"part 1: {part1(seat_lines)}")

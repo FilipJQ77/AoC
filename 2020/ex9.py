@@ -40,7 +40,7 @@ def part2(numbers):
 
 def main():
     numbers = []
-    with open("ex9input.txt") as file:
+    with open("input/ex9.txt") as file:
         for line in file.readlines():
             numbers.append(int(line))
     print(f"part 1: {part1(numbers)}")

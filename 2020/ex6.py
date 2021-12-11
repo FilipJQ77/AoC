@@ -35,7 +35,7 @@ def part2(all_group_answers):
 def main():
     all_group_answers = []
 
-    with open("ex6input.txt") as file:
+    with open("input/ex6.txt") as file:
         person_answers = []
         for line in file.readlines():
             if line != "\n":

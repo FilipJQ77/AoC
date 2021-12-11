@@ -1,7 +1,7 @@
 """wczytuje z pliku zestaw liczb, sprawdza wszystkie kombinacje 2 i 3"""
 
 numbers = []
-with open("ex1input.txt") as file:
+with open("input/ex1.txt") as file:
     for number in file.readlines():
         numbers.append(int(number))
 
